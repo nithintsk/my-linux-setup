@@ -1,0 +1,63 @@
+" Set encoding
+set enc=utf-8
+set fenc=utf-8
+set termencoding=utf-8
+
+" Set compatibility to vim only
+set nocompatible
+
+" Indent automatically
+set autoindent
+set smartindent
+filetype indent on
+set nowrap
+
+" Set space formatting
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set expandtab
+set textwidth=80
+set colorcolumn=90
+set cursorline
+set cursorcolumn
+set listchars=tab:\|\ 
+set list
+let g:indent_guides_enable_on_vim_startup = 1
+let g:indent_guides_start_level = 2
+let g:indent_guides_guide_size = 1
+
+" Colors and scheme
+"set t_Co=256
+filetype on
+syntax on
+set background=dark
+colorscheme Tomorrow-Night-Bright
+"colorscheme solarized
+"colorscheme desert
+
+" Search related
+set hlsearch
+hi Search ctermbg=LightRed
+hi Search ctermfg=black
+
+" Cancel search on escape
+"nnoremap <silent> <Esc> :nohlsearch<Bar>:echo<CR>
+
+" Display line number
+set number
+
+" Show matching paranthesis
+set showmatch
+" DoMatchParen
+
+" Auto comment
+set comments=sl:/*,mb:\ *,elx:\ */
+
+" Related to ctags
+set tags=./tags,tags;$HOME
+set autochdir
+
+" Miscellaneous
+set hidden
+set history=100
