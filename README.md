@@ -3,5 +3,7 @@
 
 ## Credits:
 Tomorrow-Night: https://github.com/chriskempson/tomorrow-theme
+
 Solarized: https://ethanschoonover.com/solarized/
+
 Vim indent Guidelines: https://github.com/nathanaelkane/vim-indent-guides
