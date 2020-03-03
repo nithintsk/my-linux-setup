@@ -38,6 +38,7 @@ colorscheme Tomorrow-Night-Bright
 
 " Search related
 set hlsearch
+set incsearch
 hi Search ctermbg=LightRed
 hi Search ctermfg=black
 
@@ -49,6 +50,8 @@ set number
 
 " Show matching paranthesis
 set showmatch
+" How long to blink - in tenth's of a second
+set mat=2
 " DoMatchParen
 
 " Auto comment
@@ -60,4 +63,4 @@ set autochdir
 
 " Miscellaneous
 set hidden
-set history=100
+set history=500
