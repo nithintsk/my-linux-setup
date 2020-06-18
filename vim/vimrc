@@ -17,7 +17,7 @@ set tabstop=4
 set softtabstop=4
 set shiftwidth=4
 set expandtab
-set textwidth=80
+"set textwidth=80
 set colorcolumn=90
 set cursorline
 set cursorcolumn
@@ -64,3 +64,4 @@ set autochdir
 " Miscellaneous
 set hidden
 set history=500
+hi CursorLine gui=underline cterm=underline
