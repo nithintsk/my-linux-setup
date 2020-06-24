@@ -11,6 +11,7 @@ set autoindent
 set smartindent
 filetype indent on
 set nowrap
+set pastetoggle=<F3>
 
 " Set space formatting
 set tabstop=4
